@@ -1,0 +1,27 @@
+{
+  "name": "aplikasi-komik-anekdot",
+  "version": "1.0.0",
+  "description": "Aplikasi yang bertujuan untuk membantu mengembangkan cerita anekdot berbasis komik",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natsuki-yasumi/aplikasi-komik-anekdot.git"
+  },
+  "keywords": [
+    "anekdot",
+    "aplikasi",
+    "pembelajaran"
+  ],
+  "author": "Feri Hermawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natsuki-yasumi/aplikasi-komik-anekdot/issues"
+  },
+  "homepage": "https://github.com/natsuki-yasumi/aplikasi-komik-anekdot#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
