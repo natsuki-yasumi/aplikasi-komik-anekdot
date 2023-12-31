@@ -1,0 +1,1 @@
+# Aplikai Membuat Komik Anekdot
