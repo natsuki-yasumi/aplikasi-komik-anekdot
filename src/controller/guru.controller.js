@@ -15,7 +15,6 @@ export const GuruController = {
         }
 
         data.password = await bcrypt.hash(data.password,10);
-        
         GuruService.createOne(data)
 
         res.status(200).json({

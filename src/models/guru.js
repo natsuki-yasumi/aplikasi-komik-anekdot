@@ -24,5 +24,10 @@ module.exports = (sequelize, DataTypes) => {
     sequelize,
     modelName: 'Guru',
   });
+
+  Guru.associate = models =>{
+    Guru.hasMany(models.Kelas)
+  }
+
   return Guru;
 };
